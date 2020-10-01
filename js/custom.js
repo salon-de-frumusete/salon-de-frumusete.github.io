@@ -150,7 +150,39 @@ Project:	Responsive Horse Club HTML Template
 
         //Help mail function	
         MailFunction: function() {
-            
+            $('.submit_frm').on('click', function() {
+                var u_name = $('#name').val();
+                var u_num = $('#number').val();
+                var u_email = $('#email').val();
+                var u_msg = $('#message').val();
+
+                $.ajax({
+                    type: "POST",
+                    url: "contactmail.php",
+                    data: {
+                        'username': u_name,
+                        'usernumber': u_num,
+                        'useremail': u_email,
+                        'user_msg': u_msg,
+                    },
+                    success: function(msg) {
+                        var full_msg = msg.split("#");
+                        if (full_msg[0] == '1') {
+                            $('#name').val("");
+                            $('#number').val("");
+                            $('#email').val("");
+                            $('#message').val("");
+                            $('#err_msg').html(full_msg[1]);
+                        } else {
+                            $('#name').val(u_name);
+                            $('#number').val(u_num);
+                            $('#email').val(u_email);
+                            $('#message').val(u_msg);
+                            $('#err_msg').html(full_msg[1]);
+                        }
+                    }
+                });
+            });
         },
 
 
