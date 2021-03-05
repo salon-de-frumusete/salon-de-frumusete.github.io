@@ -1115,7 +1115,7 @@
     font-family: Secretary;
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Secretary.eot#iefix) format("embedded-opentype"), url(../fonts/Secretary.woff) format("woff"), url(../img/Secretary.svg#Secretary) format("svg");
+    src: url(../fonts-lumiskin/Secretary.eot#iefix) format("embedded-opentype"), url(../fonts-lumiskin/Secretary.woff) format("woff"), url(../img-lumiskin/Secretary.svg#Secretary) format("svg");
 }
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
     margin: 0;
@@ -2068,7 +2068,7 @@ body.-fullscreen-overlay {
 .more__btn, .spinner-circle {
     content: "";
     display: inline-block;
-    background: url(../img/AL_icon_loader_empty.svg) no-repeat;
+    background: url(../img-lumiskin/AL_icon_loader_empty.svg) no-repeat;
     background-size: cover;
     width: 83px;
     height: 83px;
@@ -2103,13 +2103,13 @@ body.-fullscreen-overlay {
     cursor: pointer;
     min-height: 29px;
     line-height: 29px;
-    background-image: url(../img/checkbox-off.png);
+    background-image: url(../img-lumiskin/checkbox-off.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     padding-left: 40px;
 }
 .checkbox input:checked+label {
-    background-image: url(../img/checkbox-red-on.png);
+    background-image: url(../img-lumiskin/checkbox-red-on.png);
 }
 .checkbox--vertical {
     min-width: 29px;
@@ -2125,10 +2125,10 @@ body.-fullscreen-overlay {
     line-height: 22px;
     padding-top: 0;
     padding-left: 30px;
-    background-image: url(../img/checkbox-sm-off.png);
+    background-image: url(../img-lumiskin/checkbox-sm-off.png);
 }
 .checkbox--sm input:checked+label {
-    background-image: url(../img/checkbox-sm-on-red.png);
+    background-image: url(../img-lumiskin/checkbox-sm-on-red.png);
 }
 .checkbox--sm-vertical {
     min-width: 22px;
@@ -2144,7 +2144,7 @@ body.-fullscreen-overlay {
     padding-left: 0;
 }
 .checkbox-arrow-red input:checked+label {
-    background: url(../img/check-mark.png) 0 5px no-repeat;
+    background: url(../img-lumiskin/check-mark.png) 0 5px no-repeat;
     font-weight: 700;
     padding-left: 20px;
     background-size: 15px!important;
@@ -2164,7 +2164,7 @@ body.-fullscreen-overlay {
     line-height: 42px;
 }
 }.vote-total:before {
-    background: url(../img/gray-light-arr.png) no-repeat;
+    background: url(../img-lumiskin/gray-light-arr.png) no-repeat;
     width: 14px;
     position: absolute;
     left: -14px;
@@ -2270,10 +2270,10 @@ body.-fullscreen-overlay {
     background: #253289;
 }
 .round-button.toggle-white {
-    background: url(../img/toggle-white.png) 50% 50% no-repeat #e11b22;
+    background: url(../img-lumiskin/toggle-white.png) 50% 50% no-repeat #e11b22;
 }
 .round-button.toggle-white:hover {
-    background: url(../img/toggle-white.png) 50% 50% no-repeat #253289;
+    background: url(../img-lumiskin/toggle-white.png) 50% 50% no-repeat #253289;
 }
 .round-button.-disabled, .round-button.-disabled:active, .round-button.-disabled:hover {
     color: #000;
@@ -2553,7 +2553,7 @@ body.-fullscreen-overlay {
     height: 20px;
     position: absolute;
     top: 0;
-    background: url(../img/section-color-top.png) no-repeat;
+    background: url(../img-lumiskin/section-color-top.png) no-repeat;
     background-size: 100% 20px;
 }
 .popup {
@@ -2870,7 +2870,7 @@ body.-fullscreen-overlay {
     height: 76px;
     position: absolute;
     bottom: -1px;
-    background: url(../img/section-top-bottom.png) no-repeat;
+    background: url(../img-lumiskin/section-top-bottom.png) no-repeat;
     background-size: 100% 76px;
 }
 .section-top__inner h1 {
@@ -3018,7 +3018,7 @@ body.-fullscreen-overlay {
     bottom: -1px;
     width: 100%;
     height: 38px;
-    background: url(../img/section-top-bottom.png) 0 no-repeat;
+    background: url(../img-lumiskin/section-top-bottom.png) 0 no-repeat;
     background-size: 100% 38px;
 }
 @media only screen and (min-width:768px) {
@@ -3027,16 +3027,16 @@ body.-fullscreen-overlay {
     background-size: 100% 76px;
 }
 }.header__picture--bpf {
-    background-image: url(../img/section-top-bg-bpf.png);
+    background-image: url(../img-lumiskin/section-top-bg-bpf.png);
 }
 .header__picture--bob {
-    background-image: url(../img/section-top-bg-bestofbeauty.png);
+    background-image: url(../img-lumiskin/section-top-bg-bestofbeauty.png);
 }
 .header__picture--bloggersbattle {
-    background-image: url(../img/section-top-bloggersbattle.jpg);
+    background-image: url(../img-lumiskin/section-top-bloggersbattle.jpg);
 }
 .header__picture--video {
-    background-image: url(../img/header--video.jpg);
+    background-image: url(../img-lumiskin/header--video.jpg);
 }
 .header__picture--serial {
     height: 190px;
@@ -3046,7 +3046,7 @@ body.-fullscreen-overlay {
     height: 380px;
 }
 }.header__picture--beautyfair {
-    background-image: url(../img/section-top-beautyfair.jpg);
+    background-image: url(../img-lumiskin/section-top-beautyfair.jpg);
     background-position: 70% 0;
     padding-top: 58px;
     height: 235px;
@@ -3062,7 +3062,7 @@ body.-fullscreen-overlay {
     bottom: -1px;
     width: 100%;
     height: 16px;
-    background: url(../img/header__picture--bottom-2.png) 0 no-repeat;
+    background: url(../img-lumiskin/header__picture--bottom-2.png) 0 no-repeat;
     background-size: 100% 16px;
 }
 .header__body, .header__body--bob, .header__body--bpf {
@@ -3194,7 +3194,7 @@ body.-fullscreen-overlay {
 }
 }.header__sticker--bob {
     display: none;
-    background: url(../img/bob-sticker-2016.png) 50% no-repeat;
+    background: url(../img-lumiskin/bob-sticker-2016.png) 50% no-repeat;
     background-size: cover;
     position: absolute;
     width: 137px;
@@ -3207,8 +3207,8 @@ body.-fullscreen-overlay {
 }
 @font-face {
     font-family: allure-icons;
-    src: url(../fonts/allure-icons.eot);
-    src: url(../fonts/allure-icons.eot#iefix) format("eot"), url(../fonts/allure-icons.woff2) format("woff2"), url(../fonts/allure-icons.woff) format("woff"), url(../fonts/allure-icons.ttf) format("truetype"), url(../img/allure-icons.svg#allure-icons) format("svg");
+    src: url(../fonts-lumiskin/allure-icons.eot);
+    src: url(../fonts-lumiskin/allure-icons.eot#iefix) format("eot"), url(../fonts-lumiskin/allure-icons.woff2) format("woff2"), url(../fonts-lumiskin/allure-icons.woff) format("woff"), url(../fonts-lumiskin/allure-icons.ttf) format("truetype"), url(../img-lumiskin/allure-icons.svg#allure-icons) format("svg");
 }
 .-burger.btn--disabled:before, .-burger.btn--red-ghost:before, .-burger.btn--red:before, .-list.btn--disabled:before, .-list.btn--red-ghost:before, .-list.btn--red:before, .-selected .filters__title:before, .ai:before, .article-detail-text__red-excerption.quotes:after, .article-detail-text__red-excerption.quotes:before, .bc-player-ed0817c6-aa10-4a40-9227-0ff2c8ef8f5c_default.vjs-mouse .vjs-big-play-button:before, .blockquote--red-left-quote:before, .blogger__info li:before, .btn.-burger:before, .btn.-list:before, .filters__title:before, .item-video__media--video-hover:before, .modal--bpf-sidebar .filters__top .filters__category:before, .modal--bpf-sidebar .filters__top--sidebar .filters__category:before, .search-form button:before {
     font-family: allure-icons;
@@ -3420,7 +3420,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     margin-left: -55px;
     top: 11px;
     position: absolute;
-    background: url(../img/logo_red.svg) no-repeat;
+    background: url(../img-lumiskin/logo_red.svg) no-repeat;
     background-size: cover;
     width: 111px;
     height: 32px;
@@ -3905,7 +3905,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
 .modal--sidebar__picture.iphone:before {
     display: block;
     position: absolute;
-    background: url(../img/iphone-frame_1.png) no-repeat;
+    background: url(../img-lumiskin/iphone-frame_1.png) no-repeat;
     width: 59px;
     height: 119px;
     bottom: -1px;
@@ -4433,7 +4433,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     height: 420px;
     padding-top: 50px;
     box-sizing: border-box;
-    background: url(../img/product-finder-app-bg.png) 50% 0 no-repeat;
+    background: url(../img-lumiskin/product-finder-app-bg.png) 50% 0 no-repeat;
     text-align: center;
     padding-left: 10px;
 }
@@ -5594,7 +5594,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     min-height: 500px;
 }
 .not-found__picture {
-    background: url(../img/bg-404.jpg) center 50% no-repeat;
+    background: url(../img-lumiskin/bg-404.jpg) center 50% no-repeat;
     background-size: cover;
     height: 180px;
     position: relative;
@@ -5613,7 +5613,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     height: 300px;
 }
 }.not-found__picture:before {
-    background: url(../img/section-top-bottom.png) 50% 0 no-repeat;
+    background: url(../img-lumiskin/section-top-bottom.png) 50% 0 no-repeat;
     background-size: cover;
     bottom: 0;
     position: absolute;
@@ -5663,7 +5663,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     margin: 0 auto;
 }
 .page {
-    background: url(../img/section-staticarticle.jpg) center 0 no-repeat;
+    background: url(../img-lumiskin/section-staticarticle.jpg) center 0 no-repeat;
     background-size: 100% auto;
     padding-top: 65px;
 }
@@ -6117,7 +6117,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
 .subscribe__picture.iphone:before {
     display: block;
     position: absolute;
-    background: url(../img/iphone-frame.png) no-repeat;
+    background: url(../img-lumiskin/iphone-frame.png) no-repeat;
     width: 126px;
     height: 259px;
     bottom: 0;
@@ -6168,7 +6168,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     height: 35px;
     position: absolute;
     bottom: 0;
-    background: url(../img/section-top-bottom.png) 50% 0 no-repeat;
+    background: url(../img-lumiskin/section-top-bottom.png) 50% 0 no-repeat;
     background-size: cover;
 }
 @media only screen and (min-width:768px) {
@@ -6848,7 +6848,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
 }.article-detail-text__red-line {
     display: block;
     border: none;
-    background: url(../img/red_line.png) no-repeat;
+    background: url(../img-lumiskin/red_line.png) no-repeat;
     width: 139px;
     height: 12px;
     margin: 50px auto;
@@ -6894,7 +6894,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
 @media only screen and (min-width:768px) {
     .article-detail-text__red-photo-block {
     width: 220px;
-    background-image: url(../img/red-photo-block_bg1.png), url(../img/red-photo-block_bg2.png);
+    background-image: url(../img-lumiskin/red-photo-block_bg1.png), url(../img-lumiskin/red-photo-block_bg2.png);
     background-repeat: no-repeat;
     background-position: 0 0, 0 100%;
     background-size: 100% auto;
@@ -6965,7 +6965,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     display: table-cell;
 }
 .article-detail-text__red-border-text {
-    background: url(../img/red-border-text_frame.png) no-repeat;
+    background: url(../img-lumiskin/red-border-text_frame.png) no-repeat;
     background-size: 100% 100%;
     border: none;
     padding: 50px 45px;
@@ -7171,7 +7171,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
 }
 }.article-detail-text__voting-red-block {
     padding: 30px 20px;
-    background: url(../img/voting-red-block-bg.png) no-repeat #e11b22;
+    background: url(../img-lumiskin/voting-red-block-bg.png) no-repeat #e11b22;
     background-size: 100% 100%;
     color: #fff;
     margin-bottom: 30px;
@@ -7235,7 +7235,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     float: left;
     width: 48px;
     height: 41px;
-    background: url(../img/check-mark.png) no-repeat;
+    background: url(../img-lumiskin/check-mark.png) no-repeat;
     margin-top: -10px;
     background-size: contain;
 }
@@ -7266,7 +7266,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     padding-bottom: 25px;
 }
 .article-detail-text__red-border-list {
-    background: url(../img/red-border-text_frame_1.png) no-repeat;
+    background: url(../img-lumiskin/red-border-text_frame_1.png) no-repeat;
     background-size: 100% 100%;
     border: none;
     padding: 50px 45px;
@@ -9240,7 +9240,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     display: block;
     width: 60px;
     height: 60px;
-    background: url(../img/bob-winner-2016.jpg) no-repeat;
+    background: url(../img-lumiskin/bob-winner-2016.jpg) no-repeat;
     background-size: cover;
     position: absolute;
     top: 5px;
@@ -10261,7 +10261,7 @@ ng-banner[slot-name=top_banner_desktop].-exist iframe:first-child {
     display: block;
     height: 66px;
     width: 66px;
-    background: url(../img/bob-winner-2016.jpg) no-repeat;
+    background: url(../img-lumiskin/bob-winner-2016.jpg) no-repeat;
     background-size: cover;
     position: absolute;
     top: 10px;
